@@ -26,6 +26,10 @@ Aplicación web para gestionar tareas utilizando la API de JSONPlaceholder. Perm
 - Animaciones suaves al añadir nuevas tareas
 - Efecto hover en las tareas para mejorar la interactividad
 
+### Visualización del proyecto
+
+  https://romeoelena.github.io/gestionTareas-get-post-api/
+
 ## Tecnologías utilizadas
 
 - HTML5
@@ -65,3 +69,4 @@ Métodos implementados:
 - Interfaz limpia y minimalista
 - Feedback visual para todas las interacciones
 - Separación clara entre estilos inline y CSS externo
+
