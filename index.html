@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Tareas</title>
+  <link rel="icon" href="public/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Gestión de Tareas</h1>
+  <div class="formulario">
+    <h2>Añadir Nueva Tarea</h2>
+    <input type="text" id="tituloTarea" placeholder="Añadir título de tarea">
+    <button onclick="añadirTarea()">Añadir Tarea</button>
+  </div>
+
+  <h2>Listado de Tareas:</h2>
+  <ul id="listaTareas"></ul>
+  <button id="btnMasTareas" onclick="mostrarMasTareas()">Cargar 10 tareas más</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
